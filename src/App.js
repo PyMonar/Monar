@@ -3,7 +3,11 @@ import { hot } from 'react-hot-loader/root'
 
 function App() {
   return (
-    <h1>Monar</h1>
+    <div id="monar">
+      <header id="header">
+        Monar
+      </header>
+    </div>
   )
 }
 

@@ -1,0 +1,30 @@
+@import './reset';
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: local('GothamRounded'), url(../fonts/GothamRounded.ttf) format('ttf');
+}
+
+body {
+  font-family: "GothamRounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// 跟容器
+#monar {
+  height: 100vh;
+}
+
+#header {
+  height: 70px;
+  line-height: 70px;
+  background: #3e474f;
+  z-index: 101;
+  transition: height 600ms 0s ease;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  color: #ffffff;
+  text-align: center;
+}
