@@ -21,11 +21,23 @@ body {
   line-height: 70px;
   background: #3e474f;
   color: #ffffff;
+  transition: all .5s linear;
   text-align: center;
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  &:hover {
+    color: #5fcf80;
+  }
 }
 
 #main {
-  padding: 20px;
+  max-width: 700px;
+  width: 70vw;
+  margin: 90px auto 0 auto;
 }
 
 #footer {

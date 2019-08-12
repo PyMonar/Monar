@@ -12,6 +12,7 @@ function App() {
       <main id="main">
         <Card />
         <Card />
+        <Card />
       </main>
       <footer id="footer">
         Monar@2019
