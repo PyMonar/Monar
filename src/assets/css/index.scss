@@ -6,10 +6,12 @@
 }
 
 body {
+  background: #edeff0;
+  color: #576366;
   font-family: "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-// 跟容器
+// 根容器
 #monar {
   height: 100vh;
 }
@@ -18,13 +20,19 @@ body {
   height: 70px;
   line-height: 70px;
   background: #3e474f;
-  z-index: 101;
-  transition: height 600ms 0s ease;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-
   color: #ffffff;
+  text-align: center;
+}
+
+#main {
+  padding: 20px;
+}
+
+#footer {
+  margin: 0 20px;
+  border-top: 1px solid #e2e5e8;
+  height: 50px;
+  color: #b2bac2;
+  line-height:50px;
   text-align: center;
 }

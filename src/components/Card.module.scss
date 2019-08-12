@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+  border-radius: 5px 5px 4px 4px;
+  min-height: 310px;
+  padding: 88px 30px 30px;
+  margin: 20px 0;
+}
+
+/*
+.card::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -5px;
+  width: 10px;
+  height: 47px;
+  background: #d4d9dd;
+  border-radius: 5px;
+}
+*/
